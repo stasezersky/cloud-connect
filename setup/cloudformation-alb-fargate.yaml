@@ -300,6 +300,12 @@ Outputs:
     Export:
       Name: !Sub ${EnvironmentName}-LoadBalancerUrl
 
+  LoadBalancerArn:
+    Description: The ARN of the Application Load Balancer
+    Value: !Ref LoadBalancer
+    Export:
+      Name: !Sub ${EnvironmentName}-LoadBalancerArn
+
   VPC:
     Description: A reference to the created VPC
     Value: !Ref VPC
