@@ -1,5 +1,7 @@
 # Request-Response Flow Diagram
 
+**This file was written using Mermaid diagram syntax - to see the visual diagram use Mermaid Extension or read inside Github repo webpage**
+
 ## Architecture Flow Chart
 
 ```mermaid
